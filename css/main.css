@@ -111,6 +111,30 @@ header a {
 .ta_right span {
 	color: #fff;
 }
+.phone_button {
+	border: medium none;
+	background-color: transparent;
+	color: #fff;
+	float: right;
+	left: 10px;
+}
+.map_addrs {
+	border: medium none;
+	background-color: transparent;
+	color: #fff;
+	float: left;
+	top: 6px;
+}
+.phone_button a {
+	border-bottom: none;
+	font-size: 50px;
+	margin-right: 20px;
+}
+.map_addrs a {
+	border-bottom: none;
+	font-size: 42px;
+	margin-right: 20px;
+}
 header h1 {
 	text-align: center;
 	color: #fff;
@@ -182,6 +206,12 @@ header .button {
 .top_mnu li {
 	float: left;
 }
+.top_mnu ul:hover {
+	color: #050505;
+}
+.top_mnu ul li a:hover {
+	transition: 0.8s;
+}
 .top_mnu li.active a, 
 .top_mnu li:hover a {
 	background-color: #050505; 
@@ -200,6 +230,13 @@ header .button {
 }
 .top_mnu li:nth-child(6) a {
 	background-position: 13px -415px; 
+}
+.menu_navs {
+	border: medium none;
+	background-color: transparent;
+	font-size: 37px;
+	color: #fff;
+	top: 5px;
 }
 .waranty {
 	border: 3px solid #fff;
@@ -292,7 +329,7 @@ article h2.art_header::after {
 	border-radius: 2px;
 }
 .mc_item_wrap {
-	margin-left: 25px;
+	margin: 5px;
 	width: 164px;
 	display: inline-block;
 	text-align: center;
@@ -474,4 +511,33 @@ footer ul {
 }
 footer li {
 	float: left;
+}
+.home_items_map {
+	width: 100%;
+	margin-top: 30px;
+}
+#hidden_form h2 {
+	text-align: center;
+}
+#hidden_form span {
+
+}
+#hidden_form input {
+	display: block;
+	width: 100%;
+}
+#hidden_form {
+ width: 270px;
+}
+form input {
+	margin-bottom: 25px;
+}
+.button_wrap {
+	text-align: center;
+	margin-bottom: 25px;
+	border: none;
+}
+.button_s {
+	float: right;
+	margin-top: -45px;
 }

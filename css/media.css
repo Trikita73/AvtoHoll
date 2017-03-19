@@ -2,27 +2,166 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	.phone_button, .map_addrs, .menu_navs {
+		display: none;
+	}
+	.waranty {
+		font-size: 11px;
+		float: right;
+		padding: 0;
+		margin-top: 12px;
+	}
+	.top_mnu a {
+		font-size: 16px;
+	}	
+	footer ul {
+		font-size: 19px;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.top_addr, .ta_right, .top_mnu ul li  {
+		display: none;
+	}
+	.phone_button, .map_addrs {
+		display: block;
+		position: relative;
+	}
+	.buttons_top {
+		text-align: center;
+	}
+	.menu_navs {
+		display: block;
+		position: relative;
+	}
+	.top_mnu ul {
+		position: absolute;
+		background-color: #242424;
+		width: 96%;
+		z-index: 10;
+		top: 62px;
+	}
+	.top_mnu ul li  {
+		width: 100%;
+	}
+	.s_bottom img {
+		float: left;
+		left: -370px;
+		top: 299px;
+	}
+	.sb_content {
+		float: right;
+		width: 50%;
+	}
+	.sb_content {
+		float: right;
+		width: 50%;
+	}
+	.sb_header h2 {
+		text-align: center;
+		margin: 25px;
+	}
+	.button_cont {
+		float: left;
+	}
+	.sb_header.button_cont {
+		text-align: center;
+		float: none;
+	}
+	.button_s {
+		text-align: center;
+		margin-top: 10px;
+		float: none;
+	}
+	footer ul {
+		float: right;
+		padding: 0;
+		margin-top: -29px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	.buttons_top {
+		text-align: center;
+	}	
+	.top_mnu ul {
+		width: 94%;
+	}
+	.main_cats h2 {
+		font-size: 35px;
+	}
+	.s_black h2::after, .s_black h2::before {
+		background-image: none;
+	}
+	article h2.art_header::before, article h2.art_header::after {
+		background-image: none;
+	}
+	article .art_header {
+		font-size: 35px;
+	} 
+	.s_bottom img {
+		display: none;
+	}
+	.sb_content {
+		width: 100%;
+		margin-bottom: 35px;
+	}	
+	.copyright {
+		top: 40px;
+	}
+	.ex {
+		float: right;
+		top: 10px;
+	}
+	footer ul {
+		font-size: 18px;
+	}
+	footer a {
+		padding: 0 5px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.buttons_top {
+		text-align: center;
+		left: 20px;
+	}
+	.button {
+		margin-top: 20px;
+	}
+	.top_mnu ul {
+		width: 93%;
+	}
+	footer ul {
+		font-size: 16px;
+	}
+	.copyright {
+		top: -25px;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.buttons_top {
+		text-align: center;
+	}
+	.map_addrs {
+		float: right;
+		font-size: 30px;
+		top: -17px;
+	}
+	.phone_button {
+		top: 35px;
+		font-size: 30px;
+		margin-right: -45px;
+	}
+	.top_mnu ul {
+		width: 90%;
+		top: 63px;
+	}
 }
 
 
@@ -50,5 +189,7 @@
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+	.phone_button, .map_addrs, .menu_navs {
+		display: none;
+	}
 }
