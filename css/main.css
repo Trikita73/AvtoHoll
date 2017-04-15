@@ -525,6 +525,7 @@ footer li {
 #hidden_form input {
 	display: block;
 	width: 100%;
+	background-color: #DCDCDC; 
 }
 #hidden_form {
  width: 270px;
@@ -540,4 +541,19 @@ form input {
 .button_s {
 	float: right;
 	margin-top: -45px;
+}
+.main_header {
+	min-height: 0;
+}
+.services_mnu {
+	color: #fff;
+	right: 0;
+	height: 62px;
+	line-height: 62px;
+	display: block;
+	position: absolute;
+	top: 0;
+	font-size: 20px;
+	font-family: "BebasRegular";
+	padding: 0 20px;
 }

@@ -3,6 +3,11 @@ $(document).ready(function() {
 	$(".mc_item_wrap ul").each(function() {
 		$(this).after("<div class='mc_item_wrap_af'></div>");
 	});	
+
+	$(".services_mnu").click(function() {
+		$(".main_cats").slideToggle();
+	});
+
 	$(".mc_toggle").click(function() {
 		if($(this).parent().parent().children("ul").is(":visible")) {
 			$(this).parent().parent().children("ul").slideUp();
